@@ -1,0 +1,16 @@
+requests>=2.31,<3
+python-dotenv>=1.0,<2
+pytest>=8,<10
+
+pandas
+numpy
+requests
+pyarrow
+pydantic
+python-dotenv
+pytest
+streamlit
+plotly
+matplotlib
+mplsoccer
+seaborn
