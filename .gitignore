@@ -1,11 +1,21 @@
-.venv/
+# Python
 venv/
+.venv/
 __pycache__/
 *.py[cod]
-.env
 .pytest_cache/
 .mypy_cache/
+.ipynb_checkpoints/
 
+# Environment and local files
+.env
+.DS_Store
+
+# Generated Nico Paz artifacts (keep the CSV outputs)
+nico_paz_player_data.json
+nico_paz_2026_27.db
+
+# Local project data
 data/raw/*
 !data/raw/.gitkeep
 
@@ -15,21 +25,7 @@ data/processed/*
 data/database/*
 !data/database/.gitkeep
 
+data/warehouse/
 logs/*
 !logs/.gitkeep
-
-
-.venv/
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.env
-
-data/raw/
-data/processed/
-data/warehouse/
-logs/
-
-.ipynb_checkpoints/
-.DS_Store
-
+data/football_intelligence.db
