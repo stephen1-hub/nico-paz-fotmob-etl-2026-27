@@ -1,7 +1,3 @@
-# Football Intelligence Engine
-
-Football data projects and analysis pipelines built with Python, SQL, and football data sources.
-
 ## Nico Paz FotMob ETL — Serie A 2026/27 In-Season Snapshot
 
 An ETL pipeline that extracts Nico Paz player data from FotMob, transforms player metrics and shot-map data into CSV files, and loads them into a SQLite database.
