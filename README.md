@@ -39,6 +39,12 @@ The pipeline follows an Extract, Transform, Load process:
 
 The recorded run produced **41 metric records** and **48 shot records**.
 
+## Live dashboard
+
+Explore the interactive Nico Paz Player Analytics dashboard:
+
+[Open the Nico Paz 2026/27 dashboard](https://nico-paz-fotmob-etl-2026-27-bej4noyheykdbm9po4cpym.streamlit.app/)
+
 ## Run the pipeline
 
 From the repository root, run:
